@@ -4,3 +4,16 @@ server:
 spring:
   application:
     name: @artifactId@
+
+knife4j:
+  #开启增强模式
+  enable: true
+  #开启生产环境屏蔽,但是开发和测试环境可以打开
+  production: false
+  #开启Swagger的Basic认证功能,默认是false
+  basic:
+    enable: false
+    username: zl
+    password: zl123
+
+
